@@ -4,12 +4,24 @@ GUANVOLLEY - Instalacao (Windows)
 2) Abra a pasta e de 2 cliques em GuanVolley.exe.
    (Nao precisa instalar nada - Python ja vai embutido!)
 
-DICAS
-- Para jogar online com amigos, voce precisa de um servidor relay.
-  Para testes locais o jogo sobe o relay automaticamente (relay_server.exe
-  fica na mesma pasta). Para jogar com outra pessoa pela internet, rode o
-  relay_server.exe em um PC com IP publico e use a opcao "Online" no jogo
-  informando a URL do servidor.
+COMO JOGAR ONLINE COM UM AMIGO
+- No jogo, escolha "Online: criar sala" e confirme a URL (padrao: ws://localhost:8765).
+- A tela mostra o CODIGO DA SALA (4 letras) e os IPs do seu computador
+  (ex: ws://192.168.15.9:8765 - rede local, ou ws://26.x.x.x:8765 - Radmin VPN).
+- Mande para o amigo: o CODIGO da sala + o endereco ws://IP:8765.
+- O amigo escolhe "Online: entrar em sala", digita o endereco ws://IP:8765,
+  depois o codigo da sala e joga!
+
+DICAS DE REDE
+- Rede local (mesmo Wi-Fi): use o IP 192.168.x.x.
+- Internet: o jeito mais facil e o Radmin VPN (gratuito) - voce e o amigo
+  entram na mesma rede Radmin e ele usa o seu IP 26.x.x.x. Nao precisa
+  mexer no roteador.
+- Se o amigo nao conectar: libere a porta 8765 no Firewall do Windows
+  (Painel de Controle > Firewall > Permitir um app > liberar o
+  GuanVolley.exe e o relay_server.exe) e tente de novo.
+- Para jogar com qualquer pessoa pela internet sem Radmin, e preciso
+  redirecionar a porta 8765 no roteador (port forwarding).
 
 OBS
 - Seu progresso (contas, moedas, personagens) fica salvo em accounts.json
