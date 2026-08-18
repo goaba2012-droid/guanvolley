@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GuanVolley — Vôlei Arcade</title>
+<meta name="description" content="GuanVolley: jogo de vôlei arcade 2D com 31 personagens, habilidades especiais, modo 1v1 contra a CPU e multiplayer local. Baixe grátis para PC.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="hero">
+    <div class="container">
+        <h1 class="logo">GUANVOLLEY</h1>
+        <p class="tagline">Vôlei arcade 2D com 31 personagens, habilidades malucas e muita ação</p>
+        <div class="badges">
+            <span>🎮 1v1 contra a CPU</span>
+            <span>👥 2 jogadores local</span>
+            <span>🌐 Online</span>
+            <span>⭐ 31 personagens</span>
+            <span>🪙 Moedas e roleta</span>
+        </div>
+        <a class="btn-download" href="download/GuanVolley-PC.zip" download>
+            ⬇ Baixar PC
+            <span class="sub">Windows • sem instalação • grátis (26 MB)</span>
+        </a>
+    </div>
+</header>
+
+<section>
+    <div class="container">
+        <h2>Sobre o <span class="glow">jogo</span></h2>
+        <p class="subtitle">Um vôlei de praia acelerado, cheio de personagens únicos e efeitos especiais</p>
+        <div class="features">
+            <div class="feature">
+                <h3>🎮 1 Jogador vs CPU</h3>
+                <p>Desafie uma CPU que lê a bola, mergulha e devolve — cada partida vale moedas.</p>
+            </div>
+            <div class="feature">
+                <h3>👥 2 Jogadores (local)</h3>
+                <p>Dois jogadores no mesmo teclado: WASD contra as setas. Diversão garantida.</p>
+            </div>
+            <div class="feature">
+                <h3>🌐 Online</h3>
+                <p>Crie ou entre em salas e jogue contra outras pessoas pela internet.</p>
+            </div>
+            <div class="feature">
+                <h3>🪙 Conta e Roleta</h3>
+                <p>Crie sua conta, ganhe moedas por pontos e gire a roleta para ganhar personagens.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="alt">
+    <div class="container">
+        <h2>Capturas de <span class="glow">tela</span></h2>
+        <p class="subtitle">Imagens direto do jogo</p>
+        <div class="screens">
+            <img src="img/arena.png" alt="Partida de GuanVolley em andamento">
+            <img src="img/glitched.png" alt="Personagem Glitched com habilidade U ativa">
+            <img src="img/personagens.png" alt="Todos os 31 personagens do GuanVolley">
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Controles</h2>
+        <p class="subtitle">Fácil de aprender, difícil de dominar</p>
+        <div class="controls">
+            <div class="control-panel">
+                <h3>Jogador 1</h3>
+                <ul>
+                    <li><span>Mover</span><span><kbd>A</kbd> <kbd>D</kbd></span></li>
+                    <li><span>Pular</span><kbd>W</kbd></li>
+                    <li><span>Cortada</span><kbd>E</kbd></li>
+                    <li><span>Mergulho / Dash</span><kbd>Q</kbd></li>
+                    <li><span>Levantamento</span><kbd>R</kbd></li>
+                </ul>
+            </div>
+            <div class="control-panel">
+                <h3>Jogador 2</h3>
+                <ul>
+                    <li><span>Mover</span><span><kbd>←</kbd> <kbd>→</kbd></span></li>
+                    <li><span>Pular</span><kbd>↑</kbd></li>
+                    <li><span>Cortada</span><kbd>L</kbd></li>
+                    <li><span>Mergulho / Dash</span><kbd>/</kbd></li>
+                    <li><span>Levantamento</span><kbd>K</kbd></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="alt">
+    <div class="container">
+        <h2>Personagens e <span class="glow">habilidades</span></h2>
+        <p class="subtitle">31 personagens para colecionar com moedas — ou ganhar na roleta</p>
+        <div class="chars" id="chars"></div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        <h2>Como <span class="glow">instalar</span></h2>
+        <p class="subtitle">Windows — sem precisar de Python nem instalar nada</p>
+        <div class="passos">
+            <div class="passo">
+                <div class="num">1</div>
+                <h3>Baixe o jogo</h3>
+                <p>Clique no botão "Baixar PC" no topo da página e salve o arquivo <b>GuanVolley-PC.zip</b>.</p>
+            </div>
+            <div class="passo">
+                <div class="num">2</div>
+                <h3>Extraia o ZIP</h3>
+                <p>Clique com o botão direito e escolha "Extrair tudo" em uma pasta qualquer (ex: <b>C:\GuanVolley</b>).</p>
+            </div>
+            <div class="passo">
+                <div class="num">3</div>
+                <h3>Jogue!</h3>
+                <p>Abra a pasta e dê dois cliques em <b>GuanVolley.exe</b>. Pronto, é só jogar.</p>
+            </div>
+        </div>
+        <div class="aviso">
+            ⚠️ <b>Dicas:</b> a primeira abertura pode demorar ~3 segundos. Se o SmartScreen do Windows
+            reclamar, clique em <b>"Mais informações"</b> → <b>"Executar assim mesmo"</b>.
+            Seu progresso fica salvo na pasta do jogo, em <b>accounts.json</b> e <b>settings.json</b>.
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p><span class="logo-pequeno">GUANVOLLEY</span> — vôlei arcade 2D • feito com Python + Pygame</p>
+        <p>Download grátis • Windows • Versão 1.0</p>
+    </div>
+</footer>
+
+<script>
+const CHARS = [
+  ["basic", "Basico", 0, "Sem habilidade especial"],
+  ["lifter", "Levantador Estrela", 100, "T: levanta, dash e cortada"],
+  ["seer", "Visao Adiantada", 150, "T: mostra a trajetoria da bola"],
+  ["cannon", "Canhao", 150, "T: boost 8s - cortada 2x"],
+  ["wall", "Muralha", 150, "Passiva: hitbox 1.5x maior"],
+  ["raio", "Raio", 150, "T: dash turbo e velocidade"],
+  ["cobra", "Cobra", 150, "T: cortada com efeito"],
+  ["zen", "Monge Zen", 150, "T: congela a bola no ar 1,5s"],
+  ["trovao", "Trovao", 150, "Passiva: cortada 1.3x mais forte"],
+  ["ricochete", "Ricochetiador", 150, "T: pancada com ricochete"],
+  ["gigante", "Gigante", 150, "Passiva: pula mais alto"],
+  ["pulga", "Pulga", 150, "Passiva: pulo duplo"],
+  ["gol", "Goleiro", 150, "Passiva: dash mais longo"],
+  ["raposa", "Raposa", 150, "Passiva: corre mais rapido"],
+  ["servo", "Servo", 150, "Passiva: saque forte"],
+  ["fada", "Fada", 150, "Passiva: set mais alto"],
+  ["polvo", "Polvo", 150, "Passiva: alcance maior (hitbox larga)"],
+  ["fantasma", "Fantasma", 150, "Passiva: dash no ar + hitbox menor"],
+  ["anciao", "Anciao", 150, "Passiva: cortada com curva"],
+  ["coruja", "Coruja", 150, "Passiva: sempre ve a trajetoria"],
+  ["lobo", "Lobo", 150, "T: lob com quique alto"],
+  ["espelho", "Espelho", 150, "T: painel devolve a bola 1.9x"],
+  ["ima", "Ima", 150, "T: atrai a bola ate voce"],
+  ["foguete", "Foguete", 150, "T: dash explosivo"],
+  ["robot", "Robo", 150, "T: tiro forte na cortada"],
+  ["furao", "Furacao", 150, "T: vento empurra a bola"],
+  ["sombra", "Sombra", 150, "T: teleporte na direcao"],
+  ["dragao", "Dragao", 150, "T: sopro empurra a bola"],
+  ["mago", "Mago", 150, "T: bola teleporta ao inimigo e cai"],
+  ["escudo", "Escudo", 150, "T: escudo devolve a bola"],
+  ["glitched", "Glitched", null, "ADM: T zigzag | Y freeze | U buraco de minhoca"]
+];
+const grid = document.getElementById("chars");
+for (const [id, nome, preco, desc] of CHARS) {
+  const div = document.createElement("div");
+  div.className = "char" + (preco === null ? " admin" : "");
+  div.innerHTML =
+    `<img src="img/portraits/${id}.png" alt="${nome}">` +
+    `<div class="nome">${nome}</div>` +
+    (preco === null
+      ? `<span class="admin-tag">EXCLUSIVO DO CRIADOR</span>`
+      : `<div class="preco">${preco} moedas</div>`) +
+    `<div class="desc">${desc}</div>`;
+  grid.appendChild(div);
+}
+</script>
+</body>
+</html>

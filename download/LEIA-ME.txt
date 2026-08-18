@@ -1,0 +1,19 @@
+GUANVOLLEY - Instalacao (Windows)
+
+1) Extraia este arquivo para uma pasta qualquer (ex: C:\GuanVolley).
+2) Abra a pasta e de 2 cliques em GuanVolley.exe.
+   (Nao precisa instalar nada - Python ja vai embutido!)
+
+DICAS
+- Para jogar online com amigos, voce precisa de um servidor relay.
+  Para testes locais o jogo sobe o relay automaticamente (relay_server.exe
+  fica na mesma pasta). Para jogar com outra pessoa pela internet, rode o
+  relay_server.exe em um PC com IP publico e use a opcao "Online" no jogo
+  informando a URL do servidor.
+
+OBS
+- Seu progresso (contas, moedas, personagens) fica salvo em accounts.json
+  e settings.json, criados do lado do GuanVolley.exe na primeira vez que
+  voce jogar.
+- Primeira abertura pode demorar uns 3 segundos. Se o Windows SmartScreen
+  reclamar, clique em "Mais informacoes" e "Executar assim mesmo".
